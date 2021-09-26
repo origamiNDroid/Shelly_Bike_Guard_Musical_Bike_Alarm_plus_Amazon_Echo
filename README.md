@@ -60,7 +60,7 @@ Bicycle Device Requirements
 - Must be near Wifi location (not too hard to hard to accomplish on a college campus, especially if created using a LoRa Gateway)
 - Create C header file with ssid and password
 - Create C header file with API key resource
-- Upload arduino sketch to ESP8266 
+- Upload bikeAlarm.ino arduino sketch to ESP8266 
 - Refer to diagram for more
 
 ![](https://github.com/origamiNDroid/Shelly_Bike_Guard_Musical_Bike_Alarm_plus_Amazon_Echo/blob/main/bbpic_vehicledevice.JPG)
