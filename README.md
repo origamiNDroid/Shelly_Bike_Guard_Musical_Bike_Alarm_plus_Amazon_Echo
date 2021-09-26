@@ -85,6 +85,6 @@ Potential improvements for this project include:
 - RFM95W LoRa transceiver for ESP32
 - Utilize LoRa gateway to communicate with sensor instead of relying solely on a wifi router connection
 - Communicate with universities in order to establish LoRa gateways on campus as a common practice
-  -LoRa stands for Long Range and can provide network connectivity of up to 3 miles in urban areas and 10 miles in rural areas.
+  - LoRa stands for Long Range and can provide network connectivity of up to 3 miles in urban areas and 10 miles in rural areas.
 
 This project is very feasible and practical, especially with the improvements mentioned above. This is the solution to a campus free of stolen bicycles.
