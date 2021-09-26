@@ -6,6 +6,7 @@ https://github.com/origamiNDroid/Vehicle-IoT-Security-System, specifically the e
 The code is different and the implementation is different. This is a college student budget friendly approach that is easy to reproduce and 
 deploy to deter bicycle theft. This project demphasized the use of hardware in favor of a more pleasant user experience via software over the IFTTT network.
 
+Check out this video:
 
 # Purpose
  
@@ -30,6 +31,7 @@ IFTTT is a programmable automation system that allows for custom connections via
 a series of actions. In this project the trigger is activated when the agitated accelerometer causes the esp8266 to send an http request to the IFTTT web server via the ifttt webhook application. This trigger will cause the user's cellphone to be placed at maximum volume regardless of do not disturb settings and silencing, a robot call from Shelly the ShellHacks mascot will call the user to warn them of the possible bicycle theft. The Amazon Echo device will receive a notification as well. Lastly, the song “Bicycle Race” by Queen (or any song of the user's choosing) will be automatically played on a Spotify Premium account upon screen unlocking. This ensures the user will be notified upon first
 use of the cellphone. A diagram of the trigger and all the actions are included below.
 
+![](https://github.com/origamiNDroid/Shelly_Bike_Guard_Musical_Bike_Alarm_plus_Amazon_Echo/blob/main/ifttt_application_workflow.jpg)
 
 # Requirements For Full-Functionality (Not all requirements are needed for partial functionality)
 
@@ -60,6 +62,8 @@ Bicycle Device Requirements
 - Create C header file with API key resource
 - Upload arduino sketch to ESP8266 
 - Refer to diagram for more
+
+![](https://github.com/origamiNDroid/Shelly_Bike_Guard_Musical_Bike_Alarm_plus_Amazon_Echo/blob/main/bbpic_vehicledevice.JPG)
  
 IFTTT Requirements
 - Pro version is required for simplicity, otherwise user will have to create to Applets separately
@@ -80,6 +84,7 @@ Monthly Subscriptions after first month: $13.33
 
 Potential improvements for this project include:
 - Reduce Form factor
+- Include with a bicycle U-lock 
 - Replace IFTTT with a custom standalone mobile application compatible with android and iOS systems
 - Use of an ESP32 instead of ESP8266 for Bluetooth access as well as WiFi
 - Improve power electronics and get rid of developement board in favor of barebones esp32 board for battery longetivity
