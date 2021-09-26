@@ -65,9 +65,23 @@ Bicycle Device Requirements
 
 ![](https://github.com/origamiNDroid/Shelly_Bike_Guard_Musical_Bike_Alarm_plus_Amazon_Echo/blob/main/bbpic_vehicledevice.JPG)
  
-IFTTT Requirements
+IFTTT Requirements and Application Setup
 - Pro version is required for simplicity, otherwise user will have to create to Applets separately
 - https://ifttt.com/home
+- If this: 
+  - Webhooks trigger: Receive a web request --> event bike_alarm
+    - After creating the full Applet search up Webhooks in Explore and click documentation for API Key
+- Then that:
+  - Android Device: Set ringtone volume --> 100% (does not have to be 100%)
+- And:
+  - Phone Call (US only) --> call my phone (or any phone that you will be using)
+    - Message to say: Hello! I am Shelly your creepy robotic turtle bicycle guard. Your bicycle is in danger. Have a wonderful day.
+- And:
+  - Android Device: Play a specific song --> Bicycle Race (or any song really) 
+- And: 
+  - Notify My Echo: Send Alexa Notification
+    - Notification Message: A bike alarm was triggered on {{MakerWebhooks.event.OccurredAt}}
+    - Notification Title: Bike Alarm Triggered
 
 # Total Cost of Project 
 - Esp8266 = $5 fixed
