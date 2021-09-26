@@ -6,7 +6,7 @@ https://github.com/origamiNDroid/Vehicle-IoT-Security-System, specifically the e
 The code is different and the implementation is different. This is a college student budget friendly approach that is easy to reproduce and 
 deploy to deter bicycle theft. This project demphasized the use of hardware in favor of a more pleasant user experience via software over the IFTTT network.
 
-Check out this video:
+[Check out our video](https://youtu.be/1CQ6wZDjNdM)
 
 # Purpose
  
