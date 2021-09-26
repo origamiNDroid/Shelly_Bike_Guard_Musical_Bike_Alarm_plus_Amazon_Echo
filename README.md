@@ -63,6 +63,7 @@ Bicycle Device Requirements
  
 IFTTT Requirements
 - Pro version is required for simplicity, otherwise user will have to create to Applets separately
+- https://ifttt.com/home
 
 # Total Cost of Project 
 - Esp8266 = $5 fixed
