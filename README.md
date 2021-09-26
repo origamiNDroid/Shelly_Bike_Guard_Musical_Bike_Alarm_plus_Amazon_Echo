@@ -88,3 +88,10 @@ Potential improvements for this project include:
   - LoRa stands for Long Range and can provide network connectivity of up to 3 miles in urban areas and 10 miles in rural areas.
 
 This project is very feasible and practical, especially with the improvements mentioned above. This is the solution to a campus free of stolen bicycles.
+
+# Project Inspiration
+- https://panthernow.com/2021/09/20/theft-expected-to-rise-amid-in-person-classes/
+- https://www.wftv.com/news/local/ucf-police-crack-down-bicycle-thefts-bait-bike-tec/271591798/
+- https://www.reddit.com/r/ufl/comments/ho3yle/is_bike_theft_a_big_issue_at_uf/
+- https://randomnerdtutorials.com/esp8266-wi-fi-button-diy-amazon-dash-button-clone/
+- https://github.com/origamiNDroid/Vehicle-IoT-Security-System
