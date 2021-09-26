@@ -13,7 +13,7 @@ Many bicycles are protected by utilizing bike locks. Sadly these locks are not s
 grinders, bolt cutters and even wire cutters being used to get around the locking system, theives are able to steal a bicycle in less than a minute. 
 Furthermore, when a theft is in progress the owner is away and has no way of knowing a thief is riding away on their favorite mode of transportation. 
 The solution being proposed is to utilize an internet of things device (IoT) paired with an accelerometer in order to alert the cyclist owner of 
-an ongoing theft via a phone call, a musical alarm, and an amazon echo device notifiacation. By creating an IoT enabled device, the user will be 
+an ongoing theft via a phone call, a musical alarm, and an amazon echo device notification. By creating an IoT enabled device, the user will be 
 alerted to a potential theft from a remote location.
 
 
@@ -27,10 +27,8 @@ See the image below for the breadboard layout of the bicycle device.
 
 # IFTTT Setup
 IFTTT is a programmable automation system that allows for custom connections via individually programmed applets. These applets utilize a trigger to initiate 
-a series of actions. In this project the trigger is activated when the agitated accelerometer sends a webhook http request to the IFTTT web server. Trigger 
-will lead to a the user cell phone being placed on maximum volume, a phone robot call from Shelly the ShellHacks mascot will call the user to warn them, 
-an amazon echo notification, and cause the song “Bicycle Race” by Queen (or any song of the user's choosing) to be played on a spotify premium account, all 
-in order to alert the owner that a theft is in progress. A diagram of the trigger and all the actions are included below.
+a series of actions. In this project the trigger is activated when the agitated accelerometer causes the esp8266 to send an http request to the IFTTT web server via the ifttt webhook application. This trigger will cause the user's cellphone to be placed at maximum volume regardless of do not disturb settings and silencing, a robot call from Shelly the ShellHacks mascot will call the user to warn them of the possible bicycle theft. The Amazon Echo device will receive a notification as well. Lastly, the song “Bicycle Race” by Queen (or any song of the user's choosing) will be automatically played on a Spotify Premium account upon screen unlocking. This ensures the user will be notified upon first
+use of the cellphone. A diagram of the trigger and all the actions are included below.
 
 
 # Requirements For Full-Functionality (Not all requirements are needed for partial functionality)
@@ -56,23 +54,25 @@ Mobile Device Requirements:
 - Amazon Alexa App is required in order to allow amazon echo to receive notifications from IFTTT
   - Amazon echo will provide a time stamp of the event in the notification
   
-  Bicycle Device Requirements
+Bicycle Device Requirements
 - Must be near Wifi location (not too hard to hard to accomplish on a college campus, especially if created using a LoRa Gateway)
 - Create C header file with ssid and password
 - Create C header file with API key resource
 - Upload arduino sketch to ESP8266 
 - Refer to diagram for more
  
-- IFTTT
+IFTTT Requirements
 - Pro version is required for simplicity, otherwise user will have to create to Applets separately
 
 # Total Cost of Project 
-Esp8266 = $5 fixed
-Adafruit LIS3DH = $5 fixed
-perfboard + solder + random non-metallic case + misc = $10 fixed
-Spotify Premium = $10 monthly
-IFTTT Pro = $3.33 monthly
+- Esp8266 = $5 fixed
+- Adafruit LIS3DH = $5 fixed
+- perfboard + solder + random non-metallic case + misc = $10 fixed
+- Spotify Premium = $10 monthly
+- IFTTT Pro = $3.33 monthly
+
 Total Down Payment: $33.33
+
 Monthly Subscriptions after first month: $13.33 
 
 # Improvements for the Future
